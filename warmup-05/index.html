@@ -55,7 +55,11 @@
             <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         </p>
-        
+
+        <br/>
+        <br/>
+
+        <h1>Hours:</h1>
         <table>
             <tr>
                 <th scope="col">Days</th>
@@ -71,14 +75,17 @@
             </tr>
         </table>
 
+        <br />
+        <br />
+
         <h1>
-            Have any questions? Leave a comment!
+            Questions or Comments?
         </h1>
 
         <form method="POST" action="index.html">
 
             <p>
-                Comments or Questions:<br />
+                Questions or Comments:<br />
                 <textarea 
                     name="comments" id="comments" rows="10" cols="30">
                 </textarea>
@@ -86,20 +93,24 @@
                 <input type="submit"/>
             </p>
 
+            <br />
+
             <p>
                 Your Name:<br />
                 <input type="text" id="name" placeholder="Last name, First name" autofocus>
             </p>
 
+            <br />
+
             <p>
                 Would you Recommend Us to a Friend?<br/>
-                Yes <input type="checkbox" name="recommend" id="recommend"
+                Yes <input type="checkbox" name="recommend" id="recommend" value="Y">
+                No <input type="checkbox" name="recommend" id="recommend" value="N">
             </p>
+
+            <input type="button"
+            value="Submit">
+
         </form>
-           
-
-
-
-
     </body>
 </html>
