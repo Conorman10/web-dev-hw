@@ -1,14 +1,14 @@
 body {
     background-color: #441500;
-    font: "Gotham Bold";
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center
     
 }
 
 div {
-    border: 10px;
+    border: 10px solid black;
     display: inline-block;
-    background-color: #441500
+    background-color: #AC2318
 }
 
 .title {
@@ -17,4 +17,9 @@ div {
     color: #FFFFFF;
     margin: auto;
     padding: 30px
+}
+
+img {
+    border-radius: 50%;
+    border: 10px solid black;
 }
