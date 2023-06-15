@@ -1,0 +1,12 @@
+body {
+    background-color: #441500;
+    font: "Gotham Bold";
+    text-align: center
+    
+}
+
+div {
+    border: 10px;
+    display: inline-block;
+    background-color: #441500
+}
