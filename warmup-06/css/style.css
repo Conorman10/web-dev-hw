@@ -6,7 +6,7 @@ body {
 }
 
 div {
-    border: 10px solid white;
+    border: 10px solid black;
     display: inline-block;
     background-color: #AC2318
 }
@@ -21,7 +21,7 @@ div {
 
 img {
     border-radius: 50%;
-    border: 10px solid black;
+    border: 10px solid white;
 }
 
 .brand {
