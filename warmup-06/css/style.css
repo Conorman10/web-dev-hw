@@ -2,8 +2,7 @@ body {
     background-color: #441500;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: 
-    
+    color: white
 }
 
 div {
@@ -22,7 +21,7 @@ div {
 
 img {
     border-radius: 50%;
-    border: 10px solid black;
+    border: 10px solid white;
 }
 
 .brand {
@@ -32,4 +31,8 @@ img {
     display: inline-block;    
 }
 
-.
+.store {
+    height: 1200px;
+    width: 800px;
+    display: inline-block; 
+}
