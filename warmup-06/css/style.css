@@ -10,3 +10,11 @@ div {
     display: inline-block;
     background-color: #441500
 }
+
+.title {
+    font-size: 60px;
+    background-color: #AC2318;
+    color: #FFFFFF;
+    margin: auto;
+    padding: 30px
+}
