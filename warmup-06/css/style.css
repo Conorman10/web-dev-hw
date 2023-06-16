@@ -47,14 +47,14 @@ img {
 .canvas {
     background-color: rgb(153, 153, 250);
     border: 5px solid black;
-    width: 350px;
-    height: 300px;
-    position:absolute
+    width: 570px;
+    height: 500px;
+    position: relative;
 }
 
 .palette {
-    width: 300px;
-    height: 250px;
+    width: 500px;
+    height: 440px;
     position: absolute;
     left: 25px;
     bottom: 25px;
@@ -62,26 +62,20 @@ img {
 
 .maroon {
     background-color:#441500;
-    width: 100px;
-    height: 200px;
-    left: 0;
-    bottom: 0;
+    width: 130px;
+    height: 430px;
 }
 
 .red {
     background-color:#AC2318;
-    width: 100px;
-    height:200px;
-    left: 100px;
-    bottom:0;
+    width: 130px;
+    height:430px;
 }
 
 .white {
     background-color:#FFFFFF;
-    width: 100px;
-    height: 200px;
-    left: 200px;
-    bottom:0
+    width: 130px;
+    height: 430px;
 }
 
 h2 {
