@@ -39,14 +39,15 @@ img {
 }
 
 .colors {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 575px;
     display: inline-block
 }
 
 .canvas {
     background-color: rgb(153, 153, 250);
     border: 5px solid black;
+    background-color: black;
     width: 570px;
     height: 500px;
     position: relative;
