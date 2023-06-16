@@ -1,36 +1,24 @@
 body {
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left
+    background: green;
 }
 
-#title:hover {
-    letter-spacing: 0.5em;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFFF;
-    opacity: 100;
-    background-color: green
-}
-
-.titleBorder{
-    height: 300px;
-    background-color: green;
-    color: green
-
-}
-
-.titleBorder:hover {
-    background-color:#FFFF;
+h1 {
+    margin: 300px auto;
+    text-align: center;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center
+    font-size: 8em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.subtitle {
-    padding-top: 50px;
-    font-size: 100px;
-    margin: auto;
+h1:hover {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                 0 3px 0 #ccc, 0 4px 0 #ccc,
+                 0 5px 0 #ccc, 0 6px 0 #ccc,
+                 0 7px 0 #ccc, 0 8px 0 #ccc,
+                 0 9px 0 #ccc, 0 10px 0 #ccc,
+                 0 11px 0 #ccc, 0 12px 0 #ccc,
+                 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
 button {
