@@ -26,13 +26,13 @@ img {
 
 .brand {
     background-color: #AC2318;
-    height: 1000px;
+    height: 500px;
     width: 800 px;
     display: inline-block;    
 }
 
 .store {
-    height: 1200px;
+    height: 600px;
     width: 800px;
     display: inline-block; 
 }
