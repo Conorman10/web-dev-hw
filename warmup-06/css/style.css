@@ -17,7 +17,7 @@ div {
     background-color: #AC2318;
     color: #FFFFFF;
     margin: auto;
-    padding: 60px;
+    padding: 40px;
 }
 
 img {
@@ -27,13 +27,13 @@ img {
 
 .brand {
     background-color: #AC2318;
-    height: 600px;
-    width: 400px;
+    height: 800px;
+    width: 300px;
     display: inline-block;    
 }
 
 .store {
-    height: 600px;
-    width: 400px;
+    height: 800px;
+    width: 300px;
     display: inline-block; 
 }
