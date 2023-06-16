@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left
+}
+
+#title:hover {
+    letter-spacing: 0.5em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF;
+    opacity: 100;
+    background-color: green
+}
+
+.titleBorder{
+    height: 300px;
+    background-color: green;
+    color: green
+
+}
+
+.titleBorder:hover {
+    background-color:#FFFF;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center
+}
+
+.subtitle {
+    padding-top: 50px;
+    font-size: 100px;
+    margin: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    padding: 15px;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: green;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover::before {
+    left: -100%;
+}
