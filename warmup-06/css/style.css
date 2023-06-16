@@ -47,13 +47,13 @@ img {
 .canvas {
     background-color: rgb(153, 153, 250);
     border: 5px solid black;
-    background-color: black;
     width: 570px;
     height: 500px;
     position: relative;
 }
 
 .palette {
+    background-color:black
     width: 500px;
     height: 440px;
     position: absolute;
