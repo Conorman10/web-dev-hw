@@ -62,7 +62,8 @@ h2:before {
 .main-content {
     font-family: 'OpenSans', sans-serif;
     font-size: 1em;
-    margin: 10em;
+    margin-left: 40em;
+    margin-right: 40em;
     background-color: white;
     text-indent: 1.5em;
     line-height: 1.5em;
@@ -81,7 +82,9 @@ h2:before {
 
 .element-1 {
     font-size: 100px;
+    text-align: center;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    color: white
 }
 
 a:link {
