@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./Fonts/OpenSans-VariableFont_wdth,wght.ttf')
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('./Fonts/Oswald-VariableFont_wght.ttf')
+}
+
+@font-face {
+    font-family: 'TiltPrism';
+    src: url('./Fonts/TiltPrism-Regular-VariableFont_XROT,YROT.ttf')
+}
