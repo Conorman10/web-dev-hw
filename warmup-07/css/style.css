@@ -57,11 +57,12 @@ h2 {
 
 .main-content {
     font-family: 'OpenSans', sans-serif;
-    font-size: 1em;
-    margin: 0.5em;
+    font-size: 2em;
+    margin: 10em;
     background-color: white;
     text-indent: 1.5em;
-    line-height: 1.5em
+    line-height: 1.5em;
+    padding: 2em
 }
 
 .main-content p:first-child::first-letter{
