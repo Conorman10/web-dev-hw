@@ -2,12 +2,16 @@ body {
     background-color: green;
 }
 h1 {
-    margin: 300px auto;
+    margin: 100px auto;
     text-align: center;
     color: white;
     font-size: 8em;
     transition: 0.5s;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border: solid white;
+    border-width: 20px;
+    border-radius: 80%;
 }
 
 h1:hover {
@@ -21,8 +25,8 @@ h1:hover {
 }
 
 h2 {
-    margin: 200px 0;
-    padding: 0;
+    margin: 20px;
+    padding: 10px;
     font-size: 6em;
     position: relative;
     color: blue;
@@ -81,10 +85,15 @@ h2:before {
 }
 
 .element-1 {
-    font-size: 100px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 60px;
     text-align: center;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
-    color: white
+    color: white;
+    border: solid white;
+    border-radius: 80%;
+    border-width: 20px
 }
 
 a:link {
