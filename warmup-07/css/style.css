@@ -20,43 +20,6 @@ h1:hover {
                  0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
-#header {
-    background-image: url("./images/Giving Tree.jpg");
-    background-size: 600px;
-    background-position: center, bottom;
-    background-repeat: no-repeat
-}
-
-h2 {
-    color: black;
-    opacity: 0;
-    font-family: 'Oswald', Arial, Helvetica, sans-serif;
-    font-size: 150px;
-    letter-spacing: 0.3em;
-    text-align: center;
-}
-
-#title:hover{
-    letter-spacing: 0.3em;
-    font-weight: 700;
-    color: white;
-    opacity:100;
-    background-color: black
-}
-
-.titleBorder{
-    height: 200px;
-    background-color: black;
-    color: black;
-}
-
-.titleBorder:hover{
-    background-color: white;
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
 .main-content {
     font-family: 'OpenSans', sans-serif;
     font-size: 2em;
@@ -78,7 +41,7 @@ h2 {
 }
 
 .element-1 {
-    font-size: 1.5em;
+    font-size: 100px;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
 }
 
