@@ -1,4 +1,6 @@
-
+body {
+    background-color: green;
+}
 h1 {
     margin: 300px auto;
     text-align: center;
@@ -98,7 +100,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right:auto;
-    width: 55%;
+    width: 100%;
 }
 
 img {
