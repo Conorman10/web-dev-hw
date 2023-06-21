@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="my website">
+        <meta name="author" content="Conor Manley">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+        <title>
+            My Website
+        </title>
+
+    <script>
+        function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        }
+    </script>    
+
+    </head>
+
+    <body>
+
+        <nav>
+            <a href="index.html">
+                <img src="https://th.bing.com/th/id/OIP.S_KHIPf5XeFm1BKdF6eNAQHaEK?w=288&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Garfield Lasagna" width="100" style="float: left">
+            </a>
+
+            <ul style="display: inline;">
+                <li style="display: inline;">
+                    <a href="index.html">Home</a>
+                </li>    
+                &vert;
+                <li style="display: inline;">
+                    <a href="about.html">About</a>
+                </li>
+                &vert;
+                <li style="display: inline;">
+                    <a href="contact.html">Contact</a>
+                </li>
+                &vert;
+                <li style="display: inline;">
+                    <a href="services.html">Services</a>
+                </li>    
+            </ul>
+        </nav>
+
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <!-- Overlay content -->
+            <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+            </div>
+        
+        </div>
+        
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span onclick="openNav()">open</span>
+
+    </body>
