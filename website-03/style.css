@@ -19,6 +19,11 @@ body {
     color: rgb(5, 0, 0);
     
   }
+
+img {
+    border-radius: 50%;
+    border: 10px solid white;
+}  
   
 .overlay {
     height: 100%;
