@@ -111,3 +111,19 @@ h2 {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+.conor-photo {
+    float: left;
+    padding-left: 4em;
+    padding-top: 2em;
+    border: none;
+    border-radius: 0%;
+}
+
+.about {
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 18em;
+    padding-right: 2em;
+}
