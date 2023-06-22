@@ -1,13 +1,13 @@
 nav {
     background-color: pink;
     text-align: right;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 2.0%;
     border: 5px black solid;
 }
 
 a {
-    color: white;
+    color: rgb(1, 0, 0);
     background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px
@@ -16,13 +16,13 @@ a {
 body {
     font-family: 'Lato', sans-serif;
     background-color: rgb(166, 157, 231);
-    color: rgb(5, 0, 0);
+    color: rgb(0, 0, 0);
     
 }
 
 img {
     border-radius: 50%;
-    border: 10px solid white;
+    border: 10px solid black;
 }
   
 .sidenav {
@@ -50,8 +50,8 @@ img {
 }
   
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 160px; 
+    font-size: 28px; 
     padding: 0px 10px;
 }
 
