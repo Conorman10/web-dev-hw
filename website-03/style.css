@@ -23,6 +23,15 @@ img {
     border: 10px solid black;
     border-radius: 50%;
 }
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    margin-right: 270px;
+    font-size: 50px;
+}
   
 .sidenav {
     height: 100%;
@@ -36,14 +45,6 @@ img {
     padding-top: 20px;
 }
 
-h1 {
-    font-size: 100px;
-}
-
-h2 {
-    margin-right: 270px;
-    font-size: 50px;
-}
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
