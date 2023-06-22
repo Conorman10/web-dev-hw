@@ -8,7 +8,6 @@ nav {
 
 a {
     color: rgb(1, 0, 0);
-    background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px
 } 
@@ -38,11 +37,11 @@ img {
 }
 
 h1 {
-    margin-right: 170px
+    margin-right: 270px
 }
 
 h2 {
-    margin-right: 170px
+    margin-right: 270px
 }
 .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -73,6 +72,7 @@ h2 {
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
+    margin-right: 80px
 }
   
 .overlay-content {
@@ -87,7 +87,7 @@ h2 {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: pink;
     display: block;
     transition: 0.3s;
 }
