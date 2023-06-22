@@ -15,8 +15,7 @@ a {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: rgb(166, 157, 231);
-    color: rgb(0, 0, 0);
+    background-color: rgb(166, 157, 231);  
     }
 
 h3    
@@ -93,7 +92,7 @@ img {
 .overlay .closebtn {
     position: absolute;
     top: 20px;
-    right: 45px;
+    left: 45px;
     font-size: 60px;
 }
   
