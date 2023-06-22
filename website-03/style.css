@@ -15,10 +15,9 @@ a {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: rgb(166, 157, 231);  
+    background-color: rgb(166, 157, 231); 
+    text-align: center; 
     }
-
-h3    
 
 img {
     border-radius: 50%;
