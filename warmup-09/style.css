@@ -112,7 +112,6 @@ h2 {
     right: 35px; }
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    .img {}
 }
 
 .img-conor-photo {
@@ -135,4 +134,8 @@ h2 {
     font-size: 30px;
     padding: 100px;
     margin: auto;
+}
+
+@media screen and (min-width: 1280px) {
+    
 }
