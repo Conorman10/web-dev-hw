@@ -136,6 +136,27 @@ h2 {
     margin: auto;
 }
 
-@media screen and (min-width: 1280px) {
-    
+@media screen and (width: 1280px) {
+    .nav {width:fit-content; height: fit-content;}
+    .sidenav{padding: 6px 8px 6px 16px}
+    .img {width:fit-content; height:fit-content}
+    .h1 {font-size: 70px}
+    .h2 {font-size: 40px}
+    .p {padding: 30px}
+}
+
+@media screen and (width: 768px) {
+    .h1 {font-size: 50px}
+    .sidenav {padding: 6px 8px 6px 16px;}
+    .img {width:fit-content; height:fit-content}
+    .p {padding: 10px}
+}
+
+@media screen and (width: 360px) {
+    .img {width: 200px; float: none; margin-left: 30px}
+    .sidenav {padding: 6px 8px 6px 16px}
+    .nav {width:fit-content; height:fit-content}
+    .h1 {font-size: 30px;}
+    .h2 {font-size: 25px}
+    .p {padding: 10px}
 }
