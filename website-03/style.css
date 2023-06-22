@@ -14,8 +14,7 @@ a {
 } 
 
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: rgb(166, 157, 231); 
+    font-family: 'Lato', sans-serif; 
     text-align: center; 
     margin-right: 170px;
     background-image: url("./images/background.jpg");
@@ -36,14 +35,13 @@ img {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
-    color: pink
 }
   
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: pink;
     display: block;
 }
   
