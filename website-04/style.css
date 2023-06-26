@@ -27,7 +27,11 @@ img {
 .img-services {
     border: none;
     border-radius: 0%;
-    width: 300px
+    width: 500px
+}
+
+.video-services {
+    width: 500px
 }
 
 h1 {
