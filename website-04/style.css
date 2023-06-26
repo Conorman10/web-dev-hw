@@ -24,16 +24,6 @@ img {
     border-radius: 50%;
 }
 
-.img-services {
-    border: none;
-    border-radius: 0%;
-    width: 500px
-}
-
-.video-services {
-    width: 500px
-}
-
 h1 {
     font-size: 100px;
 }
@@ -130,6 +120,16 @@ h2 {
     padding-top: 2em;
 }
 
+.img-services {
+    border: none;
+    border-radius: 0%;
+    width: 500px
+}
+
+.video-services {
+    width: 500px
+}
+
 .about {
     color:black;
     text-align: center;
@@ -152,4 +152,29 @@ h2 {
     font-size: 40px;
     padding-left: 11em;
     padding-right: 11em; 
+}
+
+@media screen and (max-width: 1280px) {
+    .nav {width:fit-content; height: fit-content;}
+    .sidenav{padding: 6px 8px 6px 16px}
+    .img {width:fit-content; height:fit-content}
+    .h1 {font-size: 70px}
+    .h2 {font-size: 40px}
+    .p {padding: 30px}
+}
+
+@media screen and (max-width: 768px) {
+    .h1 {font-size: 50px}
+    .sidenav {padding: 6px 8px 6px 16px;}
+    .img {width:fit-content; height:fit-content}
+    .p {padding: 10px}
+}
+
+@media screen and (max-width: 360px) {
+    .img {width: 200px; float: none; margin-left: 30px}
+    .sidenav {padding: 6px 8px 6px 16px}
+    .nav {width:fit-content; height:fit-content}
+    .h1 {font-size: 30px;}
+    .h2 {font-size: 25px}
+    .p {padding: 10px}
 }
