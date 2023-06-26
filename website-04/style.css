@@ -154,7 +154,7 @@ h2 {
     padding-right: 11em;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1280px) {
+@media screen and (min-width: 769px) and (max-width: 1280px) {
     .nav {width:fit-content; height: fit-content;}
     .sidenav{padding: 6px 8px 6px 16px}
     .img {width:fit-content; height:fit-content}
@@ -163,14 +163,14 @@ h2 {
     .p {padding: 30px}
 }
 
-@media only screen and (min-width: 361px) and (max-width: 768px) {
+@media screen and (min-width: 361px) and (max-width: 768px) {
     .h1 {font-size: 50px}
     .sidenav {padding: 6px 8px 6px 16px;}
-    .img {width:fit-content; height:fit-content}
+    .img {width: 300px}
     .p {padding: 10px}
 }
 
-@media only screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {
     .img {width: 200px; float: none; margin-left: 30px}
     .sidenav {padding: 6px 8px 6px 16px}
     .nav {width:fit-content; height:fit-content}
