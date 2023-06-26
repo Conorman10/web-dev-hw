@@ -152,7 +152,7 @@ h2 {
     font-size: 40px;
     padding-left: 11em;
     padding-right: 11em;
-    font-family: 'Merriweather', Arial, Helvetica, sans-serif
+    font-family: 'merriweather'
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
