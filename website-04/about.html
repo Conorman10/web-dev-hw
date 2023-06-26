@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="my website">
+        <meta name="author" content="Conor Manley">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="./style.css">
+
+        <title>
+            CONORSWORLD
+        </title>    
+
+    </head>
+
+    <body>
+
+        <nav>
+            <a href="index.html">
+                <img src="./images/sneedle.jpg" alt="Conor Manley" width="200" style="float: left">
+            </a>
+        </nav>
+
+        
+        <div class="sidenav">
+            <a>
+                <span onclick="openNav()">&#9776; open</span>
+            </a>    
+        </div>
+             
+        <script>
+            function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            }
+    
+            function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="./index.html">Home</a>
+              <a href="./about.html">About</a>
+              <a href="./services.html">Services</a>
+              <a href="./contact.html">Contact</a>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <a>&#xA9 2023 Conor Manley</a>
+            </div>
+        </div>
+
+        <h1 style="margin-right: 270px">
+            About Me
+        </h1>
+
+        <br />
+        <br />
+
+        <div class="conor-photo">
+            <img src="./images/placeholder.jpg" alt="Conor Manley">
+        </div>
+
+        <div class="about">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                 incididunt ut labore et dolore magna aliqua. Sit amet justo donec enim. 
+                 Molestie nunc non blandit massa enim. Ultrices eros in cursus turpis. Ac felis
+                  donec et odio pellentesque diam. Duis ut diam quam nulla porttitor massa. 
+                  Eleifend donec pretium vulputate sapien nec sagittis aliquam. Pulvinar mattis
+                   nunc sed blandit libero volutpat. Amet est placerat in egestas. In egestas 
+                   erat imperdiet sed.
+            </p>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <nav>
+            <a href="./about.html"><b>Back to the Top</b></a>
+        </nav>
+
+    </body>    
