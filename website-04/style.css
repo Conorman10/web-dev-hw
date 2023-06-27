@@ -26,7 +26,6 @@ img {
 
 h1 {
     font-size: 100px;
-    font-family: 'Merriweather Black', 'Lato', sans-serif
 }
 
 h2 {
@@ -153,7 +152,6 @@ h2 {
     font-size: 40px;
     padding-left: 11em;
     padding-right: 11em;
-    font-family: 'Raleway Thin', Arial, Helvetica, sans-serif
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
