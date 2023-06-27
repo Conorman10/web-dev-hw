@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Merriweather Black';
-    src: url('./fonts/merriweather.ttf')
+    src: url('./fonts/Merriweather-Black.ttf');
 }
 
 @font-face {
-    font-family: 'Raleway Thin' ;
-    src: url('./fonts/raleway.ttf')
+    font-family: 'Raleway Thin';
+    src: url('./fonts/Raleway-VariableFont_wght.ttf');
 }
