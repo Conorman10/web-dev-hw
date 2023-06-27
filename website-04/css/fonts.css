@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'merriweather';
-    src: url('./css/fonts/merriweather.ttf')
+    src: url('./fonts/merriweather.ttf')
 }
 
 @font-face {
     font-family: 'raleway';
-    src: url('./css/fonts/raleway.ttf')
+    src: url('./fonts/raleway.ttf')
 }
