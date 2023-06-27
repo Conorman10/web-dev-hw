@@ -9,7 +9,7 @@ nav {
 a {
     color: rgb(1, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px
+    font-size: 20px;
 } 
 
 body {
@@ -26,6 +26,7 @@ img {
 
 h1 {
     font-size: 100px;
+    font-family: 'merriweather', 'Lato', sans-serif
 }
 
 h2 {
@@ -152,7 +153,7 @@ h2 {
     font-size: 40px;
     padding-left: 11em;
     padding-right: 11em;
-    font-family: 'merriweather', Arial, Helvetica, sans-serif
+    font-family: 'raleway' Arial, Helvetica, sans-serif
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
